@@ -1,6 +1,5 @@
 import React from 'react';
 import AppShell from './AppShell';
-import App from '../App';
 import Paper from '@material-ui/core/Paper';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
@@ -8,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
 
 
-const EachPeople = (props) => (
+export const EachPeople = (props) => (
   <Paper style={{ margin: 16, padding: 16, width: 250, height: 250, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
     <Avatar alt="Remy Sharp" src={props.avatar} style={{ width: 150, height: 150, marginBottom: 20 }} />
     <Typography variant="h6">
