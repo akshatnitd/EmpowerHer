@@ -75,7 +75,7 @@ class Login extends React.Component {
         <Paper className={classes.root}>
           <div style={{width: '70%'}}>
             <TextField
-              label="Name"
+              label="Email"
               onChange={this.handleChange('name')}
               margin="normal"
               variant="outlined"
